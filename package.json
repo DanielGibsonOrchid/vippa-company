@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "vippa",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "We help your business grow faster online",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Vippa",
   "dependencies": {
     "gatsby": "^2.8.4",
     "gatsby-image": "^2.1.2",
@@ -16,7 +16,11 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.7.0",
+    "typeface-heebo": "0.0.72",
+    "typeface-lato": "0.0.54",
+    "typeface-poppins": "0.0.72"
   },
   "devDependencies": {
     "prettier": "^1.17.1"
