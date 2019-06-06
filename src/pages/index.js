@@ -117,7 +117,7 @@ const IndexPage = () => (
                                 <div className="ginput_container ginput_container_email">
 
                                   <input 
-                                    name="input_2" 
+                                    name="email" 
                                     // id="input_2_2" 
                                     type="email" 
                                     className="medium" 
@@ -138,7 +138,7 @@ const IndexPage = () => (
                                 <div className="ginput_container ginput_container_textarea">
 
                                   <textarea 
-                                    name="input_3" 
+                                    name="message" 
                                     id="input_2_3" 
                                     className="textarea medium" 
                                     tabIndex={102} 
@@ -172,14 +172,24 @@ const IndexPage = () => (
                           </div>
 
                           <div className="gform_footer top_label">
-                            <input type="submit" id="gform_submit_button_2" className="gform_button button" defaultValue="Submit" tabIndex={103} onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery(&quot;#gform_2&quot;).trigger(&quot;submit&quot;,[true]); }" /> <input type="hidden" name="gform_ajax" defaultValue="form_id=2&title=&description=&tabindex=100" />
+                            <input 
+                              type="submit" 
+                              id="gform_submit_button_2" 
+                              className="gform_button button" 
+                              // defaultValue="Submit" 
+                              tabIndex={103} 
+                              // onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " 
+                              // onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery(&quot;#gform_2&quot;).trigger(&quot;submit&quot;,[true]); }" 
+                            /> 
+                            
+                            {/* <input type="hidden" name="gform_ajax" defaultValue="form_id=2&title=&description=&tabindex=100" />
                             <input type="hidden" className="gform_hidden" name="is_submit_2" defaultValue={1} />
                             <input type="hidden" className="gform_hidden" name="gform_submit" defaultValue={2} />
                             <input type="hidden" className="gform_hidden" name="gform_unique_id" defaultValue />
                             <input type="hidden" className="gform_hidden" name="state_2" defaultValue="WyJbXSIsIjcxYmFjZDJmNmU1YmIwNGRiZGFlZTAxMTAwYmEyNmZiIl0=" />
                             <input type="hidden" className="gform_hidden" name="gform_target_page_number_2" id="gform_target_page_number_2" defaultValue={0} />
                             <input type="hidden" className="gform_hidden" name="gform_source_page_number_2" id="gform_source_page_number_2" defaultValue={1} />
-                            <input type="hidden" name="gform_field_values" defaultValue />
+                            <input type="hidden" name="gform_field_values" defaultValue /> */}
                           </div>
                         </form>
                       </div>
